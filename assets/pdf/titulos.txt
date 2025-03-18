@@ -1,0 +1,20 @@
+]633;E;for file in *.pdf\x3b do   basename "$file" .pdf\x3b done > titulos.txt;dd4a0b6a-a2a2-4c1e-a778-0c96f691261a]633;CA proposito del COVID-19 y la polucion del aire
+Anatomía del Segmento Prehiliar de la Arteria Renal en Caninos
+Anatomical and Histological Characterization of the Digestive Canal of the Golden Kingklip Genypterus blacodes
+Anatomy, Morphometry and Radiography in the thoracic limb bones of the Patagonian Huemul Deer (Hippocamelus bisulcus)
+Características Planimétricas y Estereológicas de los Nervios Palmar Lateral y Medial en Manos de Equinos con y sin Síndrome Navicular
+Color-Based Segmentation vs. Stereology A Simple Comparison Between Two Semi-Automated Methods of Image Analysis for the Quantification of Collagen
+Criopreservación de Espermatozoides Caninos a - 80ºC
+Effects on the Female Reproductive System of Air Pollution Produced by the Use of Wood Combustion for Residential Heating Challenges and Perspectives of Morphological Studies
+Estudio Histoquímico de la Distribución de las Fibras de  Colágeno en Hueso Sesamoídeo Distal de Equinos con y sin Síndrome Navicular
+Exposure to Wood Smoke Pollution During Pre-Gestational Period of Rat has Effects on Placenta Volume and Fetus Size
+Freezing dog semen using  80 C ultra freezer Sperm function and in vivo fertility
+Histomorphometrics and quantitative unbiased stereology in canine uteri treated with medroxyprogesterone acetate
+Morfometría, Planimetría y Estereología en el Hueso Sesamoídeo Distal en Manos de Equinos con y sin Síndrome Navicular 
+Morphometric, Anatomic and Radiographic Study of Bone of the Pelvic Limb of Endangered Patagonian Huemul Deer Hippocamelus bisulcus
+Navicular Syndrome-related changes to collagen proportion of different cross-sections of the flexor tendons in equine distal forelimb
+Phenotypic response of male and neomale of O. mykiss parr subjected to 8º and 16 ºC water temperature during early life stage
+Quantification of Collagen Fibers in Canine Uteri Treated with Medroxyprogesterone Acetate
+Quantitative Analysis of Collagen Fibrillar Structure in Canine Uterus Exposed to Acetate of Medroxyprogesterone Using Second Harmonic Generation Microscopy
+Skull anatomy of the endangered Patagonian huemul deer Hippocamelus bisulcus
+Validación de SYBR-14 y 6-CFDA para Evaluar la Viabilidad e Integridad de la Membrana Plasmática en Espermatozoides Caninos de Raza Chihuahua 

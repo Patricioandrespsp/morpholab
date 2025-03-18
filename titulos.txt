@@ -1,0 +1,1 @@
+]633;E;for file in *.pdf\x3b do   basename "$file" .pdf\x3b done > titulos.txt;dd4a0b6a-a2a2-4c1e-a778-0c96f691261a]633;C*

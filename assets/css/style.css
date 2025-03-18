@@ -1,0 +1,43 @@
+.nav-item {
+color: black
+}
+
+
+.form-container {
+    width: 33.33%; /* Un tercio de la pantalla */
+    margin: 50 auto; /* Centrado horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centrado verticalmente */
+    background: rgba(255, 255, 255, 0.9); /* Fondo ligeramente transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Contorno difuminado */
+    padding: 20px; /* Espaciado interno */
+  }
+
+  .navbar {
+    position: fixed; /* Barra fija en la parte superior */
+    top: 0;
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    background: linear-gradient(to bottom, #B0B0B0, #FFFFFF); /* Degradado plomo a blanco */
+    border-radius: 15px; /* Contorno redondeado */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para darle profundidad */
+    z-index: 1000; /* Asegura que esté por encima del resto del contenido */
+    padding: 10px 20px; /* Espaciado interno */
+  }
+  
+  .nav-link {
+    color: black; /* Color de los enlaces */
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #555555; /* Color al pasar el cursor */
+  }
+  
+  body {
+    padding-top: 70px; /* Asegura que el contenido no quede oculto detrás de la barra fija */
+  }
+  
