@@ -1,3 +1,43 @@
+Si deseas extraer los nombres base de los archivos PDF (sin la extensión `.pdf`) desde la terminal, puedes usar un simple script de shell. Aquí tienes un ejemplo:
+
+### En Linux/Mac:
+Puedes usar el siguiente comando para listar los nombres base:
+
+```bash
+for file in *.pdf; do
+  basename "$file" .pdf
+done
+```
+
+### Detalles del comando:
+1. `*.pdf` selecciona todos los archivos que terminan con `.pdf`.
+2. `basename "$file" .pdf` elimina la extensión `.pdf`, dejando solo el nombre base del archivo.
+
+### Resultado:
+Al ejecutar esto en la carpeta donde se encuentran los archivos PDF (por ejemplo, `juan.pdf`, `comer.pdf`, etc.), obtendrás algo como:
+
+```
+juan
+comer
+arribade
+pelota
+```
+
+### Opcional: Exportar a un archivo de texto
+Si quieres guardar los títulos en un archivo de texto, puedes redirigir la salida:
+
+```bash
+for file in *.pdf; do
+  basename "$file" .pdf
+done > titulos.txt
+```
+
+Esto generará un archivo `titulos.txt` con los nombres base.
+
+¡Espero que esto te sea útil! Si necesitas más ayuda, no dudes en decírmelo. 😊
+
+
+
 ]633;E;for file in *.pdf\x3b do   basename "$file" .pdf\x3b done > titulos.txt;dd4a0b6a-a2a2-4c1e-a778-0c96f691261a]633;CA proposito del COVID-19 y la polucion del aire
 Anatomía del Segmento Prehiliar de la Arteria Renal en Caninos
 Anatomical and Histological Characterization of the Digestive Canal of the Golden Kingklip Genypterus blacodes

@@ -41,3 +41,87 @@ color: black
     padding-top: 70px; /* Asegura que el contenido no quede oculto detrás de la barra fija */
   }
   
+
+
+
+  /* CSS SPA */
+
+
+
+
+  html {
+    scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 56px; /* Ajuste para la barra de navegación fija */
+}
+
+section {
+  padding: 60px 0;
+}
+
+
+#quienes-somos {
+  background-color: #fae6e6;
+  height: 800px;
+  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
+  border-radius: 10px; /* Opcional, para bordes redondeados */
+ 
+}
+
+
+#que-hacemos {
+  background-image: url(/assets/img/1.jpg);
+  height: 600px
+  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
+  border-radius: 10px; /* Opcional, para bordes redondeados */
+}
+
+#contacto {
+  background-color: #b6b7af;
+  height: 600px
+  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
+  border-radius: 10px; /* Opcional, para bordes redondeados */
+}
+
+#investigaciones-recientes {
+  background-color: #e8f2eb; 
+  height: 600px
+  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
+  border-radius: 10px; /* Opcional, para bordes redondeados */ 
+}
+
+#investigaciones-antiguas {
+  background-color: #6c6b6d;
+  height: 600px
+  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
+  border-radius: 10px; /* Opcional, para bordes redondeados */
+}
+
+
+.imagen-animada {
+  opacity: 0; /* Las imágenes están inicialmente ocultas */
+  transform: translateY(20px); /* Aparecen desde abajo */
+  transition: opacity 1s ease, transform 1s ease; /* Animación suave */
+}
+
+.imagen-animada.visible {
+  opacity: 1; /* Aparecen completamente visibles */
+  transform: translateY(0); /* Vuelven a su posición original */
+}
+
+
+
+
+
+
+
+
+
+
