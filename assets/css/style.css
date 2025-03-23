@@ -1,109 +1,10 @@
-.nav-item {
-color: black
-}
-
-
-.form-container {
-    width: 33.33%; /* Un tercio de la pantalla */
-    margin: 50 auto; /* Centrado horizontalmente */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centrado verticalmente */
-    background: rgba(255, 255, 255, 0.9); /* Fondo ligeramente transparente */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Contorno difuminado */
-    padding: 20px; /* Espaciado interno */
-  }
-
-  .navbar {
-    position: fixed; /* Barra fija en la parte superior */
-    top: 0;
-    width: 100%; /* Ocupa todo el ancho de la pantalla */
-    background: linear-gradient(to bottom, #B0B0B0, #FFFFFF); /* Degradado plomo a blanco */
-    border-radius: 15px; /* Contorno redondeado */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombras para darle profundidad */
-    z-index: 1000; /* Asegura que esté por encima del resto del contenido */
-    padding: 10px 20px; /* Espaciado interno */
-  }
   
   .nav-link {
     color: black; /* Color de los enlaces */
-    font-weight: bold;
+    font-weight:lighter;
     text-decoration: none;
   }
   
-  .nav-link:hover {
-    color: #555555; /* Color al pasar el cursor */
-  }
-  
-  body {
-    padding-top: 70px; /* Asegura que el contenido no quede oculto detrás de la barra fija */
-  }
-  
-
-
-
-  /* CSS SPA */
-
-
-
-
-  html {
-    scroll-behavior: smooth;
-}
-
-body {
-  padding-top: 56px; /* Ajuste para la barra de navegación fija */
-}
-
-section {
-  padding: 60px 0;
-}
-
-
-#quienes-somos {
-  background-color: #fae6e6;
-  height: 800px;
-  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
-  border-radius: 10px; /* Opcional, para bordes redondeados */
- 
-}
-
-
-#que-hacemos {
-  background-image: url(/assets/img/1.jpg);
-  height: 600px
-  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
-  border-radius: 10px; /* Opcional, para bordes redondeados */
-}
-
-#contacto {
-  background-color: #b6b7af;
-  height: 600px
-  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
-  border-radius: 10px; /* Opcional, para bordes redondeados */
-}
-
-#investigaciones-recientes {
-  background-color: #e8f2eb; 
-  height: 600px
-  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
-  border-radius: 10px; /* Opcional, para bordes redondeados */ 
-}
-
-#investigaciones-antiguas {
-  background-color: #6c6b6d;
-  height: 600px
-  border: 2px solid transparent; /* Opcional, para crear un contorno claro */
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Ajusta los valores para personalizar el efecto */
-  border-radius: 10px; /* Opcional, para bordes redondeados */
-}
-
 
 .imagen-animada {
   opacity: 0; /* Las imágenes están inicialmente ocultas */
@@ -125,3 +26,73 @@ section {
 
 
 
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.papers-section {
+  display: flex;
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.column {
+  padding: 20px;
+}
+
+.left {
+  width: 30%;
+  background: #0073e6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px 0 0 10px;
+}
+
+.right {
+  width: 70%;
+}
+
+.papers-list {
+  list-style: none;
+  padding: 0;
+}
+
+.papers-list li {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.papers-list a {
+  display: block;
+  font-size: 18px;
+  color: #0073e6;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.papers-list a:hover {
+  text-decoration: underline;
+}
+
+.papers-list img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
