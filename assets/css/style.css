@@ -1,33 +1,9 @@
   
   .nav-link {
     color: black; /* Color de los enlaces */
-    font-weight:lighter;
     text-decoration: none;
   }
   
-
-.imagen-animada {
-  opacity: 0; /* Las imágenes están inicialmente ocultas */
-  transform: translateY(20px); /* Aparecen desde abajo */
-  transition: opacity 1s ease, transform 1s ease; /* Animación suave */
-}
-
-.imagen-animada.visible {
-  opacity: 1; /* Aparecen completamente visibles */
-  transform: translateY(0); /* Vuelven a su posición original */
-}
-
-
-
-
-
-
-
-
-
-
-
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -37,24 +13,24 @@ body {
 
 .papers-section {
   display: flex;
-  max-width: 900px;
-  margin: 40px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1600px;
+  margin: 0px auto;
+  background: rgb(235, 229, 229);
+  padding: 0px;
+  border-radius: 0px;
+  box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .column {
-  padding: 20px;
+  padding: 0px;
 }
 
 .left {
   width: 30%;
-  background: #0073e6;
-  color: white;
+  background: #ffffff;
+  color: blue;
   display: flex;
-  align-items: center;
+  align-items; left: auto;
   justify-content: center;
   font-size: 24px;
   font-weight: bold;
@@ -62,7 +38,7 @@ body {
 }
 
 .right {
-  width: 70%;
+  width: 80%;
 }
 
 .papers-list {
@@ -72,7 +48,7 @@ body {
 
 .papers-list li {
   margin-bottom: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .papers-list a {
@@ -94,5 +70,5 @@ body {
   border-radius: 5px;
   display: block;
   margin: auto;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+ 
 }
