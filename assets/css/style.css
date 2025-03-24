@@ -1,15 +1,64 @@
-  
-  .nav-link {
-    color: black; /* Color de los enlaces */
-    text-decoration: none;
-  }
-  
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
 }
+
+
+
+.navbar {
+  display: flex;
+  background-color: rgb(140, 37, 37);
+  justify-content: center; /* Centra horizontalmente el navbar */
+  align-items: center; /* Alinea verticalmente el contenido */
+  text-align: center; /* Centra el texto de los enlaces */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Centra los elementos dentro del navbar */
+}
+
+.nav-item {
+  margin: 0 10px; /* Espaciado entre los elementos del menú */
+}
+
+
+
+
+
+.nav-link {
+  color: rgb(255, 255, 255); /* Color de los enlaces */
+  text-decoration: none;
+}
+
+
+
+
+.carousel-inner img {
+  display: block;
+  margin: auto; /* Centra la imagen */
+  width: 1400px; /* Define el ancho uniforme */
+  height: 600px; /* Define el alto uniforme */
+  object-fit: cover; /* Mantiene la proporción de las imágenes y recorta el resto */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .papers-section {
   display: flex;
@@ -26,11 +75,11 @@ body {
 }
 
 .left {
-  width: 30%;
+  width: 20%;
   background: #ffffff;
   color: blue;
   display: flex;
-  align-items; left: auto;
+  align-items: left;
   justify-content: center;
   font-size: 24px;
   font-weight: bold;
@@ -71,4 +120,24 @@ body {
   display: block;
   margin: auto;
  
+}
+
+
+
+
+
+
+.gallery-img {
+  width: 100%; /* Ajusta las imágenes al ancho del contenedor */
+  height: 200px; /* Todas las imágenes tienen la misma altura */
+  object-fit: cover; /* Mantiene la proporción y recorta el exceso */
+  display: block;
+  margin: auto;
+  border-radius: 10px; /* Bordes redondeados (opcional) */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Efecto suave */
+}
+
+.gallery-img:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
+  opacity: 0.8; /* Suaviza la imagen */
 }
