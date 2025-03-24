@@ -141,3 +141,14 @@ body {
   transform: scale(1.1); /* Aumenta el tamaño al pasar el ratón */
   opacity: 0.8; /* Suaviza la imagen */
 }
+
+
+
+#contacto {
+
+  background-color: blue;
+  border-radius: 10px;
+  width: 100%; /* Ajusta las imágenes al ancho del contenedor */
+  height: auto;
+  margin: 10px;
+}
