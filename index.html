@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPA con Bootstrap</title>
+    <title>Morpholab</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#inicio">Morpholab</a>
+                    <a class="nav-link" href="/">
+                        <img src="assets/img/logo.jpg" alt="Morpholab Logo" class="rounded-circle" style="width: 40px; height: 40px; object-fit: cover;">
+                    </a>
                 </li>
 
                 <li class="nav-item">
@@ -40,24 +42,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
-
-
-
-
             </ul>
         </div>
     </div>
-
-    
 </nav>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 
-<div class="container">
+<div class="container-fluid">
 
 <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
@@ -105,8 +98,6 @@
 
 
 <section id="que-hacemos" class="container mt-5">
-    <h2>¿Que hacemos?</h2>
-
     <div class="container">
         <p>Our primary research investigates the impact of wood smoke air pollution on human reproduction, examining aspects like fertility and potential hereditary markers from exposure. Using rats as a model, pregnant females were exposed in chambers to these pollutants, assessing effects on fetuses, morphology, bone development, and key organs such as the placenta. The research also explores how this exposure impacts germ cells (eggs and sperm) and their function, analyzing its potential link to infertility in adulthood. Methodologies include histology, stereology, and morphometry. Conducted in one of Latin America’s most polluted regions, the study emphasizes critical periods of fetal development.</p>
         <p>Our secondary research is understanding of morphology of the endangered Patagonian Huemul deer in different ecological niches and its functional interpretation. Using a multidisciplinary approach between veterinarians, ecologists and engineers, combining efforts between Computed Tomography (CT), 3D Geometric Morphometrics (GM) and Finite Element Analysis (FEA).</p>
@@ -118,179 +109,205 @@
 <br>
 <br>
 
-<section id="quienes-somos" class="container mt-5">
-    <h2>¿Quienes somos?</h2>
-<div class="container text-center">
-    <div class="row">
-      <div class="col">
-        <img src="assets/img/carlos.jpg" class="img-fluid" alt="...">
-      </div>
-      <div class="col">
-        <img src="assets/img/paulosalinas.jpg" class="img-fluid" alt="...">
-      </div>
-      <div class="col">
-        <img src="assets/img/A.jpg" class="img-fluid" alt="...">
-      </div>
+<section id="quienes-somos" class="container-fluid mt-5" style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <div class="card" style="width: 18rem;">
+    <img src="assets/img/Phd Paulo Salinas.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text"><h2>Paulo Salinas</h2></p>
+      <br>
+      <p class="card-text">Ph.D. in Morphological Sciences <br>
+        Master’s in Reproductive Biology, specializing in comparative anatomy, reproductive biology, and the effects of
+        environmental pollutants on development.</p>
+      <br>
+      <p class="card-text">Associate Professor at the Institute of
+        Biology, Pontificia Universidad Católica de Valparaíso, and Director of the Animal and Experimental
+        Morphology Laboratory (www.morpholab.cl)</p>
     </div>
   </div>
-</div>
 </section>
 
-
-
-
-
-
+<!-- Codigo seccion papers  -->
 <br>
 <br>
 <br>
-
-
 
 
 <section id="papers-section" class="container mt-5">
-    <section class="papers-section">
-        <div class="column left">
-            <h2>Papers</h2>
-
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Columna izquierda (20%) sin fondo -->
+            <div class="col-md-2">
+              <h2 class="gallery-title">Papers</h2>
+            </div>
+            
+            <!-- Columna derecha (80%) con galería -->
+            <div class="col-md-10">
+                <div class="gallery-container">
+                    <input type="text" id="buscador" class="form-control mb-3" placeholder="Buscar investigaciones...">
+                    <ul class="papers-list">
+                        <li>
+                            <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
+                            <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
+                        </li>
+                        <li>
+                            <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
+                            <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
+                        </li>
+                        <li>
+                            <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
+                            <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
+                        </li>
+                        <li>
+                            <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
+                            <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
+                        </li>
+                        <li>
+                            <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
+                            <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
+                        </li>
+                        <li>
+                            <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
+                            <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
+                        </li>
+                        <li>
+                            <a href="paper2.pdf" download>Paper 2: Aprendizaje Automático</a>
+                            <img src="assets/img/6D4D61F5-252F-4A7E-B8F2-5E3D4BE8A59B-scaled.jpg" alt="Portada Paper 2">
+                        </li>
+                        <li>
+                            <a href="paper3.pdf" download>Paper 3: Redes Neuronales</a>
+                            <img src="assets/img/cropped-Capture_3.17X_43760CX_97212CY_1589745736108-1-3.jpg" alt="Portada Paper 3">
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="column right">
-            <input type="text" id="buscador" class="form-control mb-3" placeholder="Buscar investigaciones...">
-            <ul class="papers-list">
-                <li>
-                    <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
-                    <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
-                </li>
-                <li>
-                    <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
-                    <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
-                </li>
-
-                <li>
-                    <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
-                    <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
-                </li>
-
-                <li>
-                    <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
-                    <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
-                </li>
-
-                <li>
-                    <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
-                    <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
-                </li>
-
-                <li>
-                    <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
-                    <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
-                </li>
-
-                <li>
-                    <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
-                    <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
-                </li>
-
-
-                <li>
-                    <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
-                    <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
-                </li>
-
-
-                <li>
-                    <a href="paper1.pdf" download>Paper 1: Inteligencia Artificial</a>
-                    <img src="assets/img/228cbd4b-b5bf-4e96-a5cc-39495b4e346c.jpg" alt="Portada Paper 1">
-                </li>
-
-                <li>
-                    <a href="paper2.pdf" download>Paper 2: Aprendizaje Automático</a>
-                    <img src="assets/img/6D4D61F5-252F-4A7E-B8F2-5E3D4BE8A59B-scaled.jpg" alt="Portada Paper 2">
-                </li>
-                <li>
-                    <a href="paper3.pdf" download>Paper 3: Redes Neuronales</a>
-                    <img src="assets/img/cropped-Capture_3.17X_43760CX_97212CY_1589745736108-1-3.jpg" alt="Portada Paper 3">
-                </li>
-            </ul>
-        </div>
-    </section>
-</section>
-
-<br>
-</section>
+    </div>
+  </section>
 
 <br>
 <br>
 <br>
 
+
+<!-- Fin codigo seccion papers -->
+
+
+
+<!-- Galeria de imagenes -->
 
 <section id="gallery" class="container mt-5">
-   
-    <div class="container my-5">
+    <div class="container mt-5">
         <div class="row">
-          <!-- Imagen 1 -->
-          <div class="col-md-4">
-            <img src="assets/img/12.jpg" class="gallery-img" alt="Imagen 1">
-          </div>
-          <!-- Imagen 2 -->
-          <div class="col-md-4">
-            <img src="assets/img/13.jpeg" class="gallery-img" alt="Imagen 2">
-          </div>
-          <!-- Imagen 3 -->
-          <div class="col-md-4">
-            <img src="assets/img/15.jpg" class="gallery-img" alt="Imagen 3">
-          </div>
-          <!-- Imagen 4 -->
-          <div class="col-md-4">
-            <img src="assets/img/4.jpeg" class="gallery-img" alt="Imagen 4">
-          </div>
-          <!-- Imagen 5 -->
-          <div class="col-md-4">
-            <img src="assets/img/5.jpeg" class="gallery-img" alt="Imagen 5">
-          </div>
-          <!-- Imagen 6 -->
-          <div class="col-md-4">
-            <img src="assets/img/6.jpeg" class="gallery-img" alt="Imagen 6">
-          </div>
-          <!-- Imagen 7 -->
-          <div class="col-md-4">
-            <img src="assets/img/7.jpeg" class="gallery-img" alt="Imagen 7">
-          </div>
-          <!-- Imagen 8 -->
-          <div class="col-md-4">
-            <img src="assets/img/8.jpeg" class="gallery-img" alt="Imagen 8">
-          </div>
-          <!-- Imagen 9 -->
-          <div class="col-md-4">
-            <img src="assets/img/15.jpg" class="gallery-img" alt="Imagen 9">
-          </div>
+            <!-- Columna izquierda (20%) sin fondo -->
+            <div class="col-md-2">
+                <h2 class="gallery-title">Galería</h2>
+            </div>
+            
+            <!-- Columna derecha (80%) con galería -->
+            <div class="col-md-10">
+                <div class="gallery-container">
+                    <div class="row">
+                        <!-- Imagen 1 -->
+                        <div class="col-md-4">
+                            <img src="assets/img/12.jpg" class="gallery-img" alt="Imagen 1">
+                        </div>
+                        <!-- Imagen 2 -->
+                        <div class="col-md-4">
+                            <img src="assets/img/13.jpeg" class="gallery-img" alt="Imagen 2">
+                        </div>
+                        <!-- Imagen 3 -->
+                        <div class="col-md-4">
+                            <img src="assets/img/15.jpg" class="gallery-img" alt="Imagen 3">
+                        </div>
+                        <!-- Imagen 4 -->
+                        <div class="col-md-4">
+                            <img src="assets/img/4.jpeg" class="gallery-img" alt="Imagen 4">
+                        </div>
+                        <!-- Imagen 5 -->
+                        <div class="col-md-4">
+                            <img src="assets/img/5.jpeg" class="gallery-img" alt="Imagen 5">
+                        </div>
+                        <!-- Imagen 6 -->
+                        <div class="col-md-4">
+                            <img src="assets/img/6.jpeg" class="gallery-img" alt="Imagen 6">
+                        </div>
+                        <!-- Imagen 7 -->
+                        <div class="col-md-4">
+                            <img src="assets/img/7.jpeg" class="gallery-img" alt="Imagen 7">
+                        </div>
+                        <!-- Imagen 8 -->
+                        <div class="col-md-4">
+                            <img src="assets/img/8.jpeg" class="gallery-img" alt="Imagen 8">
+                        </div>
+                        <!-- Imagen 9 -->
+                        <div class="col-md-4">
+                            <img src="assets/img/15.jpg" class="gallery-img" alt="Imagen 9">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      
+    </div>
 </section>
 
+
+<!-- Fin codigo galeria de imagenes  -->
+
 <br>
 <br>
 <br>
 
+
+
+<!-- Formulario de contacto  -->
 <section id="contacto" class="container mt-5">
-    <h2>Formulario de Contacto</h2>
-    <form>
-        <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre">
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Columna izquierda (20%) -->
+            <div class="col-md-2">
+              <h2 class="gallery-title">Contactanos</h2>
+            </div>
+            
+            <!-- Columna derecha (80%) -->
+            <div class="col-md-10">
+                <div class="contact-container">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="pais" class="form-label">País</label>
+                            <select class="form-select" id="pais">
+                                <option selected>Selecciona tu país</option>
+                                <option value="1">México</option>
+                                <option value="2">España</option>
+                                <option value="3">Argentina</option>
+                                <option value="4">Colombia</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico">
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="comentarios" class="form-label">Comentarios</label>
+                            <textarea class="form-control" id="comentarios" rows="3" placeholder="Escribe tus comentarios aquí"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email">
-        </div>
-        <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="mensaje" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
+    </div>
 </section>
+
+<!-- Fin Formulario de Contacto -->
+
 <br>
 <br>
 <br>
